@@ -1,6 +1,10 @@
+Author: Bucky Frost
+File: opcodes.txt
+Purpose: Give operation codes for CS 441 HW01 simple CPU.
 
-OPcode		Operation	Addr0 	Addr1 Val
-0x0		reset		write	read
+OPcode		Operation	Addr0 		Addr1 		Val
+--------------------------------------------------------------------------------
+0x0		reset		write reg	read reg	Data for alu OP
 0x1		load 0
 0x2		load 1
 0x3		add
